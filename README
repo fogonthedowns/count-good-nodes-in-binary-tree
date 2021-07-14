@@ -1,0 +1,12 @@
+Given a binary tree root, a node X in the tree is named good if in the path from root to X there are no nodes with a value greater than X.
+
+Return the number of good nodes in the binary tree.
+
+               root, left1, right1, left2, right2
+Input: root = [3,3,null,4,2]
+Output: 3
+Explanation: Node 2 -> (3, 3, 2) is not good, because "3" is higher than it.
+Root is always good, 3 is good, 4 is good. 
+
+
+
